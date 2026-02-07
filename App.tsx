@@ -241,7 +241,7 @@ const App: React.FC = () => {
                 <h1 className="text-lg md:text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-800 to-slate-600">
                   GIA SƯ TOÁN PRO
                 </h1>
-                <span className="text-xs text-gray-500 font-medium tracking-wider">Math Tutor by Tran Hoai Thanh</span>
+                <span className="text-xs text-gray-500 font-medium tracking-wider">Math Tutor by Ms Ly AI</span>
               </div>
             </div>
             <div className="flex gap-2">
@@ -445,16 +445,16 @@ const App: React.FC = () => {
               <p className="font-medium text-slate-400">Mọi thông tin vui lòng liên hệ:</p>
               <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6">
                 <a
-                  href="https://www.facebook.com/tranhoaithanhvicko/"
+                  href="https://www.facebook.com/nguyen.ly.254892/"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-blue-400 transition-colors duration-200 flex items-center gap-2"
                 >
-                  <span className="font-bold">Facebook:</span> tranhoaithanhvicko
+                  <span className="font-bold">Facebook:</span> Ms Ly AI
                 </a>
                 <div className="hidden md:block w-1.5 h-1.5 rounded-full bg-slate-600"></div>
                 <span className="hover:text-emerald-400 transition-colors duration-200 cursor-default flex items-center gap-2">
-                  <span className="font-bold">Zalo:</span> 0348296773
+                  <span className="font-bold">Zalo:</span> 0962859488
                 </span>
               </div>
             </div>
