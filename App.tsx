@@ -430,37 +430,28 @@ const App: React.FC = () => {
               <p className="font-bold text-lg md:text-xl text-blue-200 mb-6 leading-relaxed uppercase">
                 Đăng ký khoá học thiết kế App, website không cần biết code
               </p>
-              
-              <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-6">
-                 <a
-                  href="https://tinyurl.com/khoahocAI2025"
+
+
+
+              <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-sm md:text-base">
+                <div className="flex items-center gap-2 px-4 py-2 bg-slate-700/50 rounded-full border border-slate-600">
+                  <Phone className="w-4 h-4 text-green-400" />
+                  <span className="text-slate-300">Zalo/Hotline:</span>
+                  <span className="text-white font-bold">0962859488</span>
+                </div>
+
+                <a
+                  href="https://www.facebook.com/nguyen.ly.254892/"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-full transition-all transform hover:-translate-y-1 shadow-lg shadow-blue-900/50"
-                  >
-                  ĐĂNG KÝ NGAY
+                  className="flex items-center gap-2 px-6 py-2 bg-[#1877F2] hover:bg-[#166fe5] text-white font-bold rounded-full transition-all shadow-md hover:shadow-[#1877F2]/30 active:scale-95"
+                >
+                  <Facebook className="w-4 h-4" />
+                  Liên hệ Facebook
                 </a>
               </div>
-
-               <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-sm md:text-base">
-                    <div className="flex items-center gap-2 px-4 py-2 bg-slate-700/50 rounded-full border border-slate-600">
-                        <Phone className="w-4 h-4 text-green-400" />
-                        <span className="text-slate-300">Zalo/Hotline:</span>
-                        <span className="text-white font-bold">0962859488</span>
-                    </div>
-                    
-                    <a
-                        href="https://www.facebook.com/nguyen.ly.254892/"
-                        target="_blank"
-                        rel="noreferrer"
-                         className="flex items-center gap-2 px-6 py-2 bg-[#1877F2] hover:bg-[#166fe5] text-white font-bold rounded-full transition-all shadow-md hover:shadow-[#1877F2]/30 active:scale-95"
-                    >
-                        <Facebook className="w-4 h-4" />
-                        Liên hệ Facebook
-                    </a>
-               </div>
             </div>
-            
+
             <p className="text-slate-500 text-sm mt-4">
               © 2026 Math Tutor AI - Giáo Dục Thông Minh
             </p>
